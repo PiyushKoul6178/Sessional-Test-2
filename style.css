@@ -236,3 +236,126 @@ html{
     box-shadow: 0 20px 25px rgb(0,0,0,20%);
     background-color: white
 }
+#contactme{
+    position: relative;
+    height: 105%;
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    margin: 0px -16px;
+}
+#contactform{
+    color: white;
+    position: relative;
+    background-color: white;
+    height: 100%;
+    width: 64%;
+    padding: 50px;
+}
+#contactform span{
+    position: relative;
+    left: 22%;
+    font-size: 50px;
+    top:-1%;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+#contactform span input{
+    position: relative;
+    height: 30px;
+    width: 230px;
+    top: 10px;
+    margin-right: 75px;
+    margin-bottom: 50px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: blue;
+    left: -30px;
+    font-size: 15px;
+}
+#contactform span input:focus::placeholder{
+    color: transparent;
+}
+#contactform span textarea:focus::placeholder{
+    color: transparent;
+}
+#textarea{
+    position: relative;
+    top: -20px;
+    left: -31px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: blue;
+    font-size: 15px;
+}
+#submit-button{
+    position: relative;
+    top: -25px;
+    left: -30px;
+}
+#vertical-line{
+    position: relative;
+    width: 2px;
+    height: 80%;
+    background-color: gray;
+    top: 10%;
+}
+#contacticon{
+    position: relative;
+    margin-left: 10px;
+}
+#contacticon span{
+    position: relative;
+    left: 5%;
+    font-size: 40px;
+    top:20%;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+#contacticon i{
+    position: relative;
+    left: 5%;
+    font-size: 13px;
+    top:25%;
+    margin-bottom: 50px;
+}
+#contacticon i pre{
+    position: relative;
+    display: inline;
+    font-size: 15px;
+}
+#stayintouch{
+    position: relative;
+    top: 20%;
+    left: 35%;
+    font-size: 29px;
+    font-weight: 700;
+}
+#stayintouch i{
+    position: relative;
+    font-size: 20px;
+    top: 15px;
+    left: -35px;
+    margin-left: 20px;
+    transition: .3s ease-in-out;
+}
+#stayintouch i:hover{
+    transform: translateY(-10px);
+}
+#stayintouch a{
+    color:inherit;
+}
+
+#copyright{
+    position: relative;
+    height: 20px;
+    width: 100%;
+    top: -3%;
+}
+#copyright span{
+    margin: 0px 38%;
+    font-family: sans-serif;
+}
