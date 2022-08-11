@@ -128,3 +128,111 @@ html{
     transform: scaleX(0.9);
     transform-origin: bottom left;
   }
+  #blog{
+    position: relative;
+    height: 105%;
+    width: 100%;
+    top: -10px;
+}
+#blog a{
+    color: inherit;
+}
+#titleblog{
+    position: relative;
+    margin: 0px 43%;
+    font-size: 29px;
+    font-weight: 700;
+}
+.blogdiv{
+    position: relative;
+    background-color: rebeccapurple;
+    height: 200px;
+    width: 22%;
+    margin-left: 20px;
+    display: inline-block;
+    left: 10%;
+    transition: .3s ease-in-out ;
+}
+#blog1{
+    top: 7%;
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("./assets/netflix.png");
+    background-size: cover;
+
+}
+#blog1:hover{
+    transform: scale(1.2);
+}
+#blog2{
+    left:27%;
+    top: 6%;
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("./assets/IOT.png.JPG");
+    background-size: cover;
+}
+#blog2:hover{
+    transform: scale(1.2);
+}
+#blog3{
+    top:16%;
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("./assets/starlink.png");
+    background-size: cover;
+}
+#blog3:hover{
+    transform: scale(1.2);
+}
+#blog4{
+    left:27%;
+    top:18%;
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("./assets/samsung.png");
+    background-size: cover;
+}
+#blog4:hover{
+    transform: scale(1.2);
+}
+#blog1overlay{
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgb(179, 155, 179) , rgb(231, 212, 231));
+    font-size: 18px;
+    font-family: sans-serif;
+    position: relative;
+    top: 22%;
+    left: 44%;
+    height: 89%;
+    width: 90%;
+    box-shadow: 0 20px 25px rgb(0,0,0,20%);
+}
+#blog2overlay{
+    background-image: linear-gradient(to bottom, rgb(179, 155, 179) , rgb(231, 212, 231));
+    position: relative;
+    top: 22%;
+    font-size: 17px;
+    padding: 10px;
+    left: 44%;
+    height: 89%;
+    width: 90%;
+    box-shadow: 0 20px 25px rgb(0,0,0,20%);
+    background-color: white
+}
+#blog3overlay{
+    background-image: linear-gradient(to bottom, rgb(179, 155, 179) , rgb(231, 212, 231));
+    position: relative;
+    top: 22%;
+    font-size: 18px;
+    left: 44%;
+    height: 89%;
+    padding: 10px;
+    width: 90%;
+    box-shadow: 0 20px 25px rgb(0,0,0,20%);
+    background-color: white
+}
+#blog4overlay{
+    background-image: linear-gradient(to bottom, rgb(179, 155, 179) , rgb(231, 212, 231));
+    position: relative;
+    top: 22%;
+    left: 44%;
+    font-size: 19px;
+    padding: 10px;
+    height: 89%;
+    width: 90%;
+    box-shadow: 0 20px 25px rgb(0,0,0,20%);
+    background-color: white
+}
