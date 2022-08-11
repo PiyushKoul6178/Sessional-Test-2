@@ -62,3 +62,69 @@ html{
     color: white;
     font-family: sans-serif;
 }
+#about{
+    position: relative;
+    height: 108%;
+    width: 90%;
+    margin: 10px auto;
+    background-color: white;
+}
+#title{
+    position: relative;
+    margin: 24px 245px;
+    font-size: 50px;
+    color: black;
+    font-family: sans-serif;
+}
+#title span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+  }
+  
+#title span:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+#about-content{
+    position: relative;
+    font-size:30px ;
+    margin: 0px 10px;
+}
+#aboutme{
+    position: relative;
+    margin: 50px 40%;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: black;
+    font-family: sans-serif;
+}
+#aboutmecontent{
+    position: relative;
+    font-size:30px ;
+    margin: 0px 10px;
+}
+#aboutme span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+  }
+  
+#aboutme span:hover:after {
+    transform: scaleX(0.9);
+    transform-origin: bottom left;
+  }
